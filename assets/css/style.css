@@ -20,6 +20,7 @@ body {
     height: 100%; 
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 /* -- [logo] --*/
 .menu_item-container-logo {
@@ -41,7 +42,7 @@ body {
 
 /* -- [Search] --*/
 .menu_item-container-search {
-    width: 70%;
+    width: 100%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -113,6 +114,47 @@ body {
     margin-left: 10px;
 }
 
+/* -- [Buttoms nofification] --*/
+.menu_item-container--buttomNotification {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.menu_item-container--buttomNotification-nube {
+    height: 60px;
+}
+.buttomNotification-nube {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.buttomNotification-nube img {
+    height: 30px
+}
+
+.menu_item-container--buttomNotification-campana {
+    height: 60px;
+}
+.buttomNotification-campana {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.buttomNotification-campana img {
+    height: 30px
+}
+.menu_item-container--buttomNotification-menu {
+    height: 60px;
+}
+.buttomNotification-menu {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+.buttomNotification-menu img {
+    height: 30px
+}
 
 /*-- [Grid of Pinterest] -------------
 -------------------------------*/
@@ -120,15 +162,16 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, 250px);
     justify-content: center;
-    grid-gap: 10px;
+    grid-gap: 15px;
 }
 .item {
-    border-radius: 5px;
-    padding: 10px;
-    background: #f2f2f2;
+    /* padding: 10px;
+    background: #f2f2f2; */
 }
 .item img {
+    border-radius: 25px;
     max-width: 100%;
+    object-fit: cover;
     height: 100%;
     
 }
