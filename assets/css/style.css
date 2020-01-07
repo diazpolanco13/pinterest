@@ -57,7 +57,7 @@ body {
 
 }
 .menu_item-search input {
-    width: 90%;
+    width: 50%;
     height: 20px;
     border: 0;
     background-color: #efefef;
